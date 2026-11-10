@@ -20,6 +20,30 @@ The Mango Studios skill set for Claude Code. Install once and every Claude Code 
 
 Each big skill keeps the original skills it merged as modules under `modules/`, with their credits and licenses in `SOURCES.md`.
 
+## Best: publish once to your Claude plugin library
+
+This repo is a Claude Code plugin called `mango`. Publish it to your organization's plugin library once, and it syncs to every Claude Code session you open: your computer, cloud sessions and mobile, in every repo, with no per-environment setup. Commands are namespaced, for example `/mango:design`.
+
+Publishing only works from your own computer (the Claude app or a terminal), not from a cloud session:
+
+```bash
+git clone https://github.com/Jack-Attackz101/mango-skills.git ~/mango-skills
+cd ~/mango-skills && claude "Publish this plugin to my organization"
+```
+
+Approve the upload when Claude asks. If your organization reviews plugins, approve it on claude.ai, then turn it on for yourself there.
+
+To update later: `git pull`, bump `version` in `.claude-plugin/plugin.json`, and publish again.
+
+You can also install it straight from this repo on one computer without the library:
+
+```
+/plugin marketplace add Jack-Attackz101/mango-skills
+/plugin install mango@mango-skills
+```
+
+## Alternative: plain commands without the `mango:` prefix
+
 ## Install on your computer (Claude Code CLI, desktop app, VS Code, JetBrains)
 
 ```bash
