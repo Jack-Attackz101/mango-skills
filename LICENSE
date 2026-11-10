@@ -1,0 +1,8 @@
+Mango Studios' own files in this repository (the skill workflows, rubric, judge
+protocol, scripts and installer) are proprietary to Mango Studios and are not
+licensed for redistribution.
+
+Each skill's modules/ folder contains third-party skills that keep their
+original licenses (MIT, Apache 2.0, CC BY 4.0 and others). Each skill's
+SOURCES.md lists where every module came from; license files and credit lines
+inside a module apply to that module.

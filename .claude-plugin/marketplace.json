@@ -1,11 +1,14 @@
 {
   "name": "mango-skills",
-  "owner": { "name": "Mango Studios" },
+  "owner": {
+    "name": "Mango Studios"
+  },
   "plugins": [
     {
       "name": "mango",
       "source": "./",
       "description": "Mango Studios skills: Super Design with a judge loop to 8/10, landing pages, theme prototypes, scroll sites, animation, images, brand, review, demos, marketing, interviews, Agentation and REA."
     }
-  ]
+  ],
+  "description": "Mango Studios' Claude Code skills, packaged as one plugin."
 }
