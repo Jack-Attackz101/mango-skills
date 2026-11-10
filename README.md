@@ -4,7 +4,7 @@ The Mango Studios skill set for Claude Code. Install once and every Claude Code 
 
 | Command | What it does |
 |---|---|
-| `/design` | Super Design: art direction, build or redesign, then a judge AI scores it and the builder fixes issues until it reaches 8/10 |
+| `/design` | Super Design: art direction, build or redesign, then a judge AI scores and critiques it while the builder fixes issues until it reaches 8/10 |
 | `/landing-page` | Landing pages and marketing sites: intake, structure, conversion copy, strict visual system, then the judge loop |
 | `/prototype` | A gallery of full-page versions of your site in different themes, each openable full screen |
 | `/scroll-site` | Cinematic scroll-driven sites: smooth scroll, pinned scenes, scrubbed sequences |
@@ -13,7 +13,7 @@ The Mango Studios skill set for Claude Code. Install once and every Claude Code 
 | `/brand` | Brand kits and design systems |
 | `/review` | A graded report using the same rubric and judge as `/design`, plus extra audits |
 | `/demo` | Faux product UI, recorded walkthroughs, page-to-video, voiceover |
-| `/research` | Awwwards references, motion studies, page capture, recreating sites |
+| `/marketing` | Campaigns, competitor briefs, posts, emails, SEO, brand voice checks, reports |
 | `/interview` | Interviews you in depth, then writes a spec to `.plans/` |
 | `/agentation` | Adds the Agentation feedback toolbar to a Next.js app |
 | `/reverse-engineer-anything` | REA reverse-engineering tools |
